@@ -1,0 +1,44 @@
+{
+  "///// 一般的なjsonはコメントが無いが、必要に応じて、このように記載しておく /////": "",
+  "name": "kurumi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.bundle.js",
+  "scripts": {
+    "///// BDDで開発を進める場合、右記に変更した方が使い勝手が良さそう。npm run watch & http-server & npm test /////": "",
+    "start": "npm run watch & http-server",
+    "watch": "NODE_ENV=development webpack --watch",
+    "test": "",
+    "///// 環境変数をproductionモードに変更してbuild /////": "",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-A-I/kurumi-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-A-I/kurumi-app/issues"
+  },
+  "homepage": "https://github.com/D-A-I/kurumi-app#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "http-server": "^0.11.1",
+    "ts-loader": "^5.1.1",
+    "typescript": "^3.0.3",
+    "vue-class-component": "^6.2.0",
+    "vue-loader": "^15.4.2",
+    "vue-property-decorator": "^7.0.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "vue": "^2.5.16"
+  }
+}

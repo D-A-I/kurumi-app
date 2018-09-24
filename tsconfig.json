@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* ## 以下、vueの推奨構成 ##
+     * https://jp.vuejs.org/v2/guide/typescript.html#%E6%8E%A8%E5%A5%A8%E6%A7%8B%E6%88%90 */
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    // promise／async／await／fetch api..をes5で使用できるようにする
+    "lib": ["dom","es2015.promise","es5"],
+    "sourceMap": true,
+    "noImplicitThis": true,
+    // default export無し(export = module)での、default importを許可
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  }
+}
