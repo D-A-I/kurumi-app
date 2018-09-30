@@ -1,0 +1,17 @@
+{
+    "///// 現状、ほぼデフォルト状態で使用。必要に応じてメンテナンス /////": "",
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "quotemark": [
+            true,
+            "single",
+            "avoid-template"
+        ],
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}

@@ -1,4 +1,4 @@
-/* ## このファイルは編集しない ## */
+/* ## このファイルは基本編集しない ## */
 
 import Vue from 'vue';
 import App from './components/app.vue';
